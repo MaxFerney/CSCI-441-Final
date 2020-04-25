@@ -1,0 +1,29 @@
+
+@import './components/variables';
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: $global_background;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.6rem; //translates to 16px font size
+}
+input, button, select {
+    font-size: 1.4rem;
+}
+h1{
+    font-weight: 300;
+    font-size: 2.4rem; //translates to 24px font size
+}
+
+@import './components/titlebar';
+@import './components/wrapper';
+@import './components/singleItem';
+@import './components/footer';
+@import './components/button';
+@import './components/post';
+@import './components/form';

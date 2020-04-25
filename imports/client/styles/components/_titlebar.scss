@@ -1,0 +1,13 @@
+.title-bar {
+    color: $footer_text;
+}
+.title-bar__moderator{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+.title-bar__wrapper{
+    margin: $wrapper_margin;
+    max-width:100%;
+    background-color: $footer_background;
+    padding: .8rem;
+}

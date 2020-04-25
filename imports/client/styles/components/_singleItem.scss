@@ -1,0 +1,17 @@
+.single-block-item-style{
+    background-color: white;
+    margin-top: .5rem;
+    padding: 1.3rem;
+}
+
+.single-block-item-style__message{
+    color: $button_background;
+    font-size:1.3rem;
+    font-style:italic;
+    font-weight:300;
+    text-align:center;
+}
+
+.single-block-item-style__mesage--empty{
+    color: coral;
+}

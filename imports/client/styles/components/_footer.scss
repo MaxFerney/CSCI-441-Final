@@ -1,0 +1,9 @@
+.footer {
+    color: white;
+}
+.footer-wrapper{
+    margin: $wrapper_margin;
+    max-width:100%;
+    padding: $wrapper_padding;
+    background-color: $footer_background;
+}
